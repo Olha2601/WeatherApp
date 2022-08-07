@@ -41,8 +41,8 @@
           Current weather <br />
           <span id="date"></span>
           <p>
-            Precipitation: 91% <br />
-            Wind: 5 km/h
+            Humidity: <span id="humidity"></span> % <br />
+            Wind: <span id="wind"></span> m/s
           </p>
         </div>
         <div class="col-6 chosen-city">
@@ -59,7 +59,9 @@
               </span>
             </div>
           </h1>
-          <h5>H:20°C L: 13°C</h5>
+          <h5>
+            H:<span id="max-temp"></span>°C L:<span id="min-temp"></span>°C
+          </h5>
         </div>
         <div class="col-3 current-weather-icon">
           <img
@@ -68,7 +70,7 @@
             class="part-cloudy"
           />
           <br />
-          Partly cloudy
+          <span id="description"></span>
         </div>
       </div>
       <small>5-day forecast</small>

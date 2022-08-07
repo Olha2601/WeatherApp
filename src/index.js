@@ -41,6 +41,23 @@ function showWeatherCondition(response) {
     response.data.main.temp
   );
   document.querySelector("#city").innerHTML = response.data.name;
+
+  document.querySelector("#wind").innerHTML = Math.round(
+    response.data.wind.speed
+  );
+  document.querySelector("#humidity").innerHTML = Math.round(
+    response.data.main.humidity
+  );
+  document.querySelector("#max-temp").innerHTML = Math.round(
+    response.data.main.temp_max
+  );
+  document.querySelector("#min-temp").innerHTML = Math.round(
+    response.data.main.temp_min
+  );
+  document.querySelector("#description").innerHTML =
+    response.data.weather[0].description;
+  console.log(response.data);
+  console.log(response.data.weather[0].description);
 }
 
 function searchCity(city) {
