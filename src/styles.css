@@ -57,6 +57,11 @@ h5 {
     rgb(97, 166, 241) 45.5%
   );
 }
+.github-link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
 
 #city-input {
   border-radius: 10px;
