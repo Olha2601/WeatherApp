@@ -24,7 +24,7 @@
     <div class="container">
       <form id="searchCity">
         <div class="row">
-          <div class="col-6">
+          <div class="col-sm-6">
             <input type="text" placeholder="Enter city here" id="city-input" />
           </div>
           <div class="col-3">
@@ -37,15 +37,14 @@
       </form>
 
       <div class="row">
-        <div class="col-3">
-          Current weather <br />
+        <div class="col-sm-3">
           <span id="date"></span>
           <p>
             Humidity: <span id="humidity"></span> % <br />
             Wind: <span id="wind"></span> m/s
           </p>
         </div>
-        <div class="col-6 chosen-city">
+        <div class="col-sm-6 chosen-city">
           <h1>
             <span id="city"></span>
             <br />
@@ -63,20 +62,16 @@
             H:<span id="max-temp"></span>°C L:<span id="min-temp"></span>°C
           </h5>
         </div>
-        <div class="col-3 current-weather-icon">
-          <img
-            src="src/images/patrly-cloudy.svg"
-            alt="patrly-cloudy"
-            class="part-cloudy"
-          />
+        <div class="col-sm-3 current-weather-icon">
+          <img src="" alt="weather-icon" id="icon" class="weather-icon" />
           <br />
-          <span id="description"></span>
+          <span id="description" class="description"></span>
         </div>
       </div>
       <small>5-day forecast</small>
       <hr />
       <div class="row">
-        <div class="col fiveday-forecast">
+        <div class="col-sm fiveday-forecast">
           <h6>
             Sat <br />
             26 Jun
@@ -85,7 +80,7 @@
           31°C <br />
           70% chance of showers
         </div>
-        <div class="col fiveday-forecast">
+        <div class="col-sm fiveday-forecast">
           <h6>
             Sun <br />
             25 Jun
@@ -94,7 +89,7 @@
           31°C <br />
           Sunny
         </div>
-        <div class="col fiveday-forecast">
+        <div class="col-sm fiveday-forecast">
           <h6>
             Mon <br />
             27 Jun
@@ -104,7 +99,7 @@
           <br />
           Cloudy
         </div>
-        <div class="col fiveday-forecast">
+        <div class="col-sm fiveday-forecast">
           <h6>
             Tue <br />
             28 Jun
@@ -113,7 +108,7 @@
           27°C <br />
           Sunny
         </div>
-        <div class="col fiveday-forecast wed">
+        <div class="col-sm fiveday-forecast wed">
           <h6>
             Wed <br />
             29 Jun

@@ -72,6 +72,10 @@ h5 {
   box-shadow: 8px 5px 20px rgb(0 0 0 / 20%);
 }
 
+.description {
+  text-transform: capitalize;
+}
+
 #searchCity {
   display: block;
   margin: 0 auto;
@@ -83,9 +87,6 @@ h5 {
   text-align: center;
 }
 
-.part-cloudy {
-  height: 90px;
-}
 .current-weather-icon {
   text-align: center;
 }
